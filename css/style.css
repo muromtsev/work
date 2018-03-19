@@ -97,7 +97,19 @@ ul {
     max-width: 1300px;
     width: 100%;
     margin: auto;
-    padding-top: 50px; }
+    padding-top: 50px;
+    transition: 2s linear; }
+    .header-menu .menu-link {
+      display: none;
+      width: 60px;
+      height: 60px;
+      position: fixed;
+      top: 20%;
+      right: 0;
+      z-index: 99;
+      cursor: pointer; }
+      .header-menu .menu-link img {
+        width: 100px; }
     .header-menu .menu {
       display: flex;
       justify-content: space-around;

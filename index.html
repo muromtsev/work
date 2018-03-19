@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--    Styles-->
     <link rel="stylesheet" href="css/style.css">
+<!--    media-->
+<link rel="stylesheet" href="css/media.css">
 <!--    Font-Awesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
-    <!-- Bootstrap grid CSS -->
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
 <!--    google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Exo+2:400,400i,700,700i|Roboto:400,400i,700,700i" rel="stylesheet">
 
@@ -17,17 +17,21 @@
   </head>
   <body>
 <!--  header-->
-   <div class="header">
+   <div class="header" id="home">
         <div class="header-logo">
             <a href="#" id=""><p>portfolio</p>
             <small>skills &amp; spells</small></a>
         </div>
+        
         <nav class="header-menu">
+            <span class="menu-link">
+                <img src="img/astronaut.png" alt="">
+            </span>
             <ul class="menu">
-                <li><a href="#" data-hover="home">_home</a></li>
-                <li><a href="#" data-hover="skills">_skills</a></li>
-                <li><a href="#" data-hover="spells">_spells</a></li>
-                <li><a href="#" data-hover="about us">_work</a></li>
+                <li><a href="#home" data-hover="home" class="link">_home</a></li>
+                <li><a href="#skills" data-hover="skills" class="link">_skills</a></li>
+                <li><a href="#spells" data-hover="spells" class="link">_spells</a></li>
+                <li><a href="#work" data-hover="about us" class="link">_work</a></li>
             </ul>
         </nav>
         <div class="heading">
@@ -37,7 +41,7 @@
    </div>
    </div><!--  header-->
 <!--   skills-->
-   <div class="skills">
+   <div class="skills" id="skills">
       <h1>skills</h1>
        <div class="skills__blocks">
            <div class="block">
@@ -61,7 +65,7 @@
        </div>       
    </div><!--   skills-->
 <!--   spells-->
-   <div class="spells">
+   <div class="spells" id="spells">
        <h1>spells</h1>      
           
         <div class="flex">
@@ -81,7 +85,7 @@
           
    </div>
 <!--   work-->
-   <div class="work">
+   <div class="work" id="work">
       <h1>work</h1>
        <div class="work-flex">
            <div class="work-flex__item">

@@ -1,4 +1,14 @@
 $( document ).ready(function() {    
+    $('.link').click( function(){
+        var scroll_item = $(this).attr('href');
+        if ($(scroll_item).length != 0) {
+            $('html, body').animate({ scrollTop: $(scroll_item).offset().top }, 1000);
+        }
+        return false;
+    });
+    
+    
+    
     var typed = new Typed ('.heading_title #text', {
         strings: ["welcome to my little space..."],
         typeSpeed: 80,
@@ -42,6 +52,19 @@ $( document ).ready(function() {
     }
   }).on('circle-animation-progress', function(event, progress) {
     $(this).find('strong').html(Math.round(40 * progress) + '<i>%</i>');
+    });
+    
+    
+    var menu_link = $('.menu-link');
+    var menu = $('.menu');    
+    
+    menu_link.click(function(){
+       menu_link.toggleClass('menu-link_active');
+        menu.toggleClass('menu_active');
+    });
+    $('.link').click(function(){
+        menu_link.toggleClass('menu-link_active');
+        menu.toggleClass('menu_active');
     });
     
     
