@@ -1,4 +1,2 @@
 # work
-portfolio
-###
-< https://muromtsev.github.io/work >
+https://muromtsev.github.io/work
