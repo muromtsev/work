@@ -248,75 +248,11 @@ h1 {
                     font-size: 2em;
                     padding: 10px;
                 }
-//                &-line {
-//                    position: relative;
-//                    max-width: 150px;
-//                    width: 100%;
-//                    height: 20px;
-//                    border: 3px solid grey;
-//                    margin: auto;
-//                    border-radius: 5px;
-//                   
-//                    
-//                    .line {
-//                        display: block;
-//                        position: absolute;
-//                        left: 0;
-//                        width: 100%;
-//                        height: inherit;
-//                        border-top-left-radius: 1px;
-//                        border-bottom-left-radius: 1px;
-//                    }
-//                    .bem {
-//                        left: 0;
-//                        width: 30%;
-//                        background-color: #efdd0b;
-//                    }
-//                    .sass {
-//                        width: 50%;
-//                        background-color: #c6538c;
-//                    }
-//                    .bootstrap {
-//                        width: 35%;
-//                        background-color: #563d7c;
-//                    }
-//                    .jquery {
-//                        width: 50%;
-//                        background-color: #0769ad;
-//                    }
-//                }
+//               
                 
             }//progress
         }//item        
-    }//flex 
-    .site {        
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        align-items: center;
-        max-width: 1500px;
-        width: 100%;  
-        margin-top: 50px;
-        margin-bottom: 50px;
-        h5 {
-            font-size: 2em;
-            font-style: italic;
-            padding: 20px;
-        }
-        
-        .box {
-            display: flex;
-            flex-direction: row;
-            max-width: 300px;
-            width: 100%;
-            justify-content: center;
-            
-            img {
-                width: 50px;
-                margin: 5px;
-            }
-        }
-    }
+    }//flex    
 }//spells
 //work
 .work {
